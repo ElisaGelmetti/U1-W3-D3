@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background-image: url(/assets/sfondo\ grigio.jpg);
+opacity: 4;
+  font-family: 'Montserrat', sans-serif;
+     font-size: 1.8rem;
+      line-height: 1.8;
+      padding: 13px;
+      background-color: white;
+      opacity: 88%;
+      text-align: center;
+      margin:auto;
+     
+}
+
+h1 {   font-size: rem;
+    font-weight: bold;
+     letter-spacing: auto;
+     margin-bottom: 0.4em;
+     text-align-last: center;
+  text-align: center;
+}
+
+form {
+  display: center;
+  font-size: auto;
+}
+
+form div {
+  text-align: center;
+  margin: 1px;
+
+}
+
+main {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 87px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a230ee;
+  padding: 20px;
+  border-radius: 3%;
+  
+}
+
+form label {
+  display: 
+  width: 44em;
+}
+
+form button {
+  margin-top: 1.6em;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  border-radius:9%;
+}
+
+form input {
+  width: 15em;
+  padding: 0.3em;
+}
+
+.contact-card {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  background-color:  #a230ee;
+  padding-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 2em;
+  margin-right: 2em;
+}

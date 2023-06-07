@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h1>FORM</h1>
+        <form id="myForm">
+          <div>
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="nome" required />
+          </div>
+          <div>
+            <label for="username"></label>
+            <input type="text" id="username" placeholder="cognome" required />
+          </div>
+          <div>
+            <label for="phone"></label>
+            <input
+              id="phone"
+              type="phone"
+              placeholder="telefono"
+              required
+              min="0"
+              max="100"
+            />
+          </div>
+          <div>
+            <label for="email"></label>
+            <input id="email" type="text" placeholder="email" required />
+          </div>
+          <div>
+            <label for="password"></label>
+            <input
+              id="password"
+              type="password"
+              placeholder="password"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">INVIA</button>
+          </div>
+        </form>
+      </main>
+      <section>
+        <div id="saved-contacts"></div>
+      </section>
+    </div>
+    <script src="jd3.js"></script>
+  </body>
+</html>
